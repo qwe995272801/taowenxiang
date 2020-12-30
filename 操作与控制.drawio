@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T12:10:45.838Z" agent="5.0 (Windows)" etag="P7xQ50F8yZ1cGH0hond_" version="14.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-30T12:11:31.110Z" agent="5.0 (Windows)" etag="zl7Ssf2aW2j3sAgT3Qfz" version="14.1.4" type="github" pages="2">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站操作控制">
-    <mxGraphModel dx="1662" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1422" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAktlr_rAtMlSzYdnEFI-53" value="解除所遥控站的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="OAktlr_rAtMlSzYdnEFI-53" value="解除所遥控站、所属责任区的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
             <mxPoint x="1360" y="573" as="sourcePoint" />
             <mxPoint x="1364.62" y="610.9200000000001" as="targetPoint" />
