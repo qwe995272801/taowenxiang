@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T12:04:47.766Z" agent="5.0 (Windows)" etag="SF4JQ6v11oTyRAGjsp5e" version="14.1.4" type="github">
-  <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站操作与控制">
+<mxfile host="app.diagrams.net" modified="2020-12-30T12:08:33.814Z" agent="5.0 (Windows)" etag="lV8ol12AZ99u9eA5O9qW" version="14.1.4" type="github" pages="2">
+  <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站操作控制">
     <mxGraphModel dx="1662" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
@@ -189,6 +189,111 @@
               <mxPoint x="1414.62" y="610.9" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9o3CwmvH5UfDT6bgjeNN" name="变电站操作控制">
+    <mxGraphModel dx="835" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="wMq_7famFR51GRSwdipC-0" />
+        <mxCell id="wMq_7famFR51GRSwdipC-1" parent="wMq_7famFR51GRSwdipC-0" />
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-7" value="操作控制服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="1305.5" y="60" width="100" height="806" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="ciZsR9RCfxFkyUFJthsd-7">
+          <mxGeometry x="45" y="88" width="10" height="718" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;变电站&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="1100" y="20" width="705" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-22" value="前置（安全Ⅰ区）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="1505" y="60" width="100" height="806" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="ciZsR9RCfxFkyUFJthsd-22">
+          <mxGeometry x="45" y="80" width="10" height="726" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-24" value="mqtt：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;fontSize=12;" edge="1" parent="wMq_7famFR51GRSwdipC-1" source="ciZsR9RCfxFkyUFJthsd-22">
+          <mxGeometry x="0.0156" relative="1" as="geometry">
+            <mxPoint x="1530" y="560" as="sourcePoint" />
+            <mxPoint x="1359" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-25" value="判断所遥控的站、所属责任区是否存在其它遥控，若无加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
+            <mxPoint x="1363" y="360" as="sourcePoint" />
+            <mxPoint x="1367.62" y="397.9200000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1417.62" y="359.9" />
+              <mxPoint x="1417.62" y="397.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-26" value="mqtt：请求遥控" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1360" y="432" as="sourcePoint" />
+            <mxPoint x="1554.5" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-27" value="设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="1708" y="60" width="100" height="802" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="ciZsR9RCfxFkyUFJthsd-27">
+          <mxGeometry x="45" y="80" width="10" height="722" as="geometry" />
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-29" value="？协议：请求遥控" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1563" y="464" as="sourcePoint" />
+            <mxPoint x="1753.5" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-30" value="？协议：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;fontSize=12;" edge="1" parent="wMq_7famFR51GRSwdipC-1" source="ciZsR9RCfxFkyUFJthsd-27">
+          <mxGeometry x="0.0156" relative="1" as="geometry">
+            <mxPoint x="1730" y="521" as="sourcePoint" />
+            <mxPoint x="1559" y="521" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciZsR9RCfxFkyUFJthsd-32" value="解除所遥控站的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
+            <mxPoint x="1360" y="573" as="sourcePoint" />
+            <mxPoint x="1364.62" y="610.9200000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1414.62" y="572.9" />
+              <mxPoint x="1414.62" y="610.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnVUDT3IRgTYin_r3TKA-0" value="人机界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry x="1100" y="60" width="100" height="807" as="geometry" />
+        </mxCell>
+        <mxCell id="AnVUDT3IRgTYin_r3TKA-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="AnVUDT3IRgTYin_r3TKA-0">
+          <mxGeometry x="45" y="80" width="10" height="724" as="geometry" />
+        </mxCell>
+        <mxCell id="AnVUDT3IRgTYin_r3TKA-2" value="rest：请求遥控" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1157" y="283" as="sourcePoint" />
+            <mxPoint x="1350" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnVUDT3IRgTYin_r3TKA-3" value="rest：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1354" y="648" as="sourcePoint" />
+            <mxPoint x="1155" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnVUDT3IRgTYin_r3TKA-4" value="根据解闭锁状态、标识牌操作判断能否遥控" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="193.9999999999999" as="sourcePoint" />
+            <mxPoint x="1154.62" y="231.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1204.62" y="193.89999999999998" />
+              <mxPoint x="1204.62" y="231.89999999999998" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
