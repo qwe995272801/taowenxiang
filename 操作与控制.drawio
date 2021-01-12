@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T09:22:15.670Z" agent="5.0 (Windows)" etag="twlb0iMYpcKFF34hBYTA" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T10:15:27.343Z" agent="5.0 (Windows)" etag="FsLQQxh7JK-5UorCj5ga" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -589,7 +589,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k-PNkeczVrlQ-6iHQjST-20" value="根据解闭锁状态、标识牌操作判断能否遥控撤销" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="ZuWGsQ8DyUzYGvk5d2aV-1" edge="1">
+        <mxCell id="k-PNkeczVrlQ-6iHQjST-20" value="判断选择遥控时是否成功、遥控执行是否失败" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="ZuWGsQ8DyUzYGvk5d2aV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="159.9999999999999" as="sourcePoint" />
             <mxPoint x="594.6199999999999" y="197.91999999999996" as="targetPoint" />
