@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T07:53:23.882Z" agent="5.0 (Windows)" etag="Z1A6BorilXUrY17t_-s4" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T07:54:07.739Z" agent="5.0 (Windows)" etag="E9d40txefqi7NUMGKm0O" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -497,7 +497,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7PcH81wD7881p9dCkkYE-0" value="?协议：请求遥控执行" style="html=1;verticalAlign=bottom;endArrow=none;fontFamily=Helvetica;fontSize=12;dashed=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="x2HWCKkkfEyqD4hLZzFE-1">
+        <mxCell id="7PcH81wD7881p9dCkkYE-0" value="?协议：返回遥控执行结果" style="html=1;verticalAlign=bottom;endArrow=none;fontFamily=Helvetica;fontSize=12;dashed=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="x2HWCKkkfEyqD4hLZzFE-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="969" y="700" as="sourcePoint" />
             <mxPoint x="1199.5" y="700" as="targetPoint" />
