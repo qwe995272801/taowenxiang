@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T12:14:40.791Z" agent="5.0 (Windows)" etag="l7MXkBm8gLYiLylMcYyd" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T12:19:22.065Z" agent="5.0 (Windows)" etag="Yt9vQ-O12z1M2HEE0oM5" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -343,7 +343,7 @@
             <mxPoint x="805" y="742" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rkqGi8DmcarmtSHgErd--0" value="mqtt：选择成功通知FORE1加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
+        <mxCell id="rkqGi8DmcarmtSHgErd--0" value="mqtt：选择失败通知FORE1解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1157" y="542" as="sourcePoint" />
             <mxPoint x="1624.5" y="542" as="targetPoint" />
