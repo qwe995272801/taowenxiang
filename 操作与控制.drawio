@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T09:13:31.608Z" agent="5.0 (Windows)" etag="csw-Xsk7vhXW0aE12R58" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T09:14:27.389Z" agent="5.0 (Windows)" etag="BW_Q2DMZdfptr7estCm5" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -510,8 +510,8 @@
         </mxCell>
         <mxCell id="7PcH81wD7881p9dCkkYE-0" value="?协议：返回遥控执行结果" style="html=1;verticalAlign=bottom;endArrow=none;fontFamily=Helvetica;fontSize=12;dashed=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="x2HWCKkkfEyqD4hLZzFE-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="969" y="614" as="sourcePoint" />
-            <mxPoint x="1199.5" y="614" as="targetPoint" />
+            <mxPoint x="969" y="591" as="sourcePoint" />
+            <mxPoint x="1199.5" y="591" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IMkz252eZITP-XD23rgn-0" value="FORE1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="x2HWCKkkfEyqD4hLZzFE-1">
@@ -520,7 +520,7 @@
         <mxCell id="IMkz252eZITP-XD23rgn-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="IMkz252eZITP-XD23rgn-0">
           <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
         </mxCell>
-        <mxCell id="M5SwTQwrxvRvC_BgD2ze-0" value="mqtt：通知FORE1正在遥控执行结束，解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="x2HWCKkkfEyqD4hLZzFE-1" target="IMkz252eZITP-XD23rgn-0">
+        <mxCell id="M5SwTQwrxvRvC_BgD2ze-0" value="mqtt：遥控执行结束通知FORE1解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="x2HWCKkkfEyqD4hLZzFE-1" target="IMkz252eZITP-XD23rgn-0">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="969.25" y="672" as="sourcePoint" />
             <mxPoint x="1436.75" y="672" as="targetPoint" />
