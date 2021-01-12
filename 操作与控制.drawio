@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T09:14:27.389Z" agent="5.0 (Windows)" etag="BW_Q2DMZdfptr7estCm5" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T09:15:19.568Z" agent="5.0 (Windows)" etag="u20Dd3K7iZHcGcSXWsFA" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -644,8 +644,8 @@
         </mxCell>
         <mxCell id="W55j3i_SupmhrxSVGZ0L-14" value="?协议：请求遥控撤销" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1161" y="448" as="sourcePoint" />
-            <mxPoint x="1391.5" y="448" as="targetPoint" />
+            <mxPoint x="1161" y="423" as="sourcePoint" />
+            <mxPoint x="1391.5" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W55j3i_SupmhrxSVGZ0L-15" value="判断所遥控的站是否允许遥控撤销" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
@@ -683,8 +683,8 @@
         </mxCell>
         <mxCell id="W55j3i_SupmhrxSVGZ0L-20" value="&lt;div&gt;?协议：返回遥控撤销结果&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=none;fontFamily=Helvetica;fontSize=12;dashed=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1163" y="499" as="sourcePoint" />
-            <mxPoint x="1393.5" y="499" as="targetPoint" />
+            <mxPoint x="1163" y="492" as="sourcePoint" />
+            <mxPoint x="1393.5" y="492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W55j3i_SupmhrxSVGZ0L-21" value="FORE1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
