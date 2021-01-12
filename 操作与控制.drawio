@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:45:33.751Z" agent="5.0 (Windows)" etag="PkZRmtft7gIJrioTWz6n" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:50:01.502Z" agent="5.0 (Windows)" etag="EYVQFwgWBevVKB7QcXpz" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -1049,17 +1049,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WtwCudk_62ub5tHGt2Jf-6" value="判断是否存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
-          <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1781" y="470" as="sourcePoint" />
-            <mxPoint x="1785.62" y="507.9200000000001" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1835.62" y="469.9" />
-              <mxPoint x="1835.62" y="507.9" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WtwCudk_62ub5tHGt2Jf-7" value="mqtt：请求遥控撤销" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1580" y="452" as="sourcePoint" />
@@ -1074,14 +1063,14 @@
         </mxCell>
         <mxCell id="WtwCudk_62ub5tHGt2Jf-10" value="？协议：请求遥控撤销" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1783" y="532" as="sourcePoint" />
-            <mxPoint x="1973.5" y="532" as="targetPoint" />
+            <mxPoint x="1781" y="496" as="sourcePoint" />
+            <mxPoint x="1971.5" y="496" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WtwCudk_62ub5tHGt2Jf-11" value="？协议：返回遥控撤销结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;fontSize=12;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
           <mxGeometry x="0.0156" relative="1" as="geometry">
-            <mxPoint x="1977.5" y="576" as="sourcePoint" />
-            <mxPoint x="1779" y="576" as="targetPoint" />
+            <mxPoint x="1974.5" y="551" as="sourcePoint" />
+            <mxPoint x="1776" y="551" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
