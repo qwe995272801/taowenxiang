@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T10:58:36.942Z" agent="5.0 (Windows)" etag="XOjGFKySjnzk-fEUq96M" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:00:22.174Z" agent="5.0 (Windows)" etag="6eIQDbi3-_MEDNdGMsFj" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -359,8 +359,8 @@
         </mxCell>
         <mxCell id="jX1l36r8yX6FcAj8dOug-2" value="mqtt：返回遥控执行结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.81;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="jX1l36r8yX6FcAj8dOug-0" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="637.2" as="sourcePoint" />
-            <mxPoint x="55" y="637.2" as="targetPoint" />
+            <mxPoint x="255" y="679" as="sourcePoint" />
+            <mxPoint x="55" y="679" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jX1l36r8yX6FcAj8dOug-3" value="前置（安全Ⅰ区）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="x2HWCKkkfEyqD4hLZzFE-1" vertex="1">
@@ -423,12 +423,12 @@
         </mxCell>
         <mxCell id="jX1l36r8yX6FcAj8dOug-19" value="mqtt：请求遥控执行" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="x2HWCKkkfEyqD4hLZzFE-1" edge="1">
           <mxGeometry x="0.003" relative="1" as="geometry">
-            <mxPoint x="620" y="385" as="sourcePoint" />
-            <mxPoint x="819.5000000000005" y="385" as="targetPoint" />
+            <mxPoint x="618" y="350" as="sourcePoint" />
+            <mxPoint x="817.5000000000005" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="730" y="385" />
-              <mxPoint x="570" y="435" />
-              <mxPoint x="560" y="435" />
+              <mxPoint x="728" y="350" />
+              <mxPoint x="568" y="400" />
+              <mxPoint x="558" y="400" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -443,13 +443,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jX1l36r8yX6FcAj8dOug-21" value="判断责任区是否允许执行遥控" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="x2HWCKkkfEyqD4hLZzFE-1" edge="1">
-          <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="619" y="330.0799999999999" as="sourcePoint" />
-            <mxPoint x="623.6199999999999" y="368" as="targetPoint" />
+        <mxCell id="jX1l36r8yX6FcAj8dOug-21" value="判断责任区是否允许存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="x2HWCKkkfEyqD4hLZzFE-1" edge="1">
+          <mxGeometry x="0.0458" y="24" relative="1" as="geometry">
+            <mxPoint x="827" y="361.99999999999994" as="sourcePoint" />
+            <mxPoint x="831.6199999999999" y="399.92" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="673.62" y="329.97999999999996" />
-              <mxPoint x="673.62" y="367.97999999999996" />
+              <mxPoint x="881.62" y="361.9" />
+              <mxPoint x="881.62" y="399.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -473,11 +473,11 @@
         </mxCell>
         <mxCell id="jX1l36r8yX6FcAj8dOug-31" value="解除责任区的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="x2HWCKkkfEyqD4hLZzFE-1" edge="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="618" y="827" as="sourcePoint" />
-            <mxPoint x="622.6199999999999" y="864.9200000000001" as="targetPoint" />
+            <mxPoint x="827" y="785" as="sourcePoint" />
+            <mxPoint x="831.6199999999999" y="822.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="672.62" y="826.9" />
-              <mxPoint x="672.62" y="864.9" />
+              <mxPoint x="881.62" y="784.9" />
+              <mxPoint x="881.62" y="822.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
