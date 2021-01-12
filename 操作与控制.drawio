@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:08:24.253Z" agent="5.0 (Windows)" etag="mWejaDY4VxmPvrw9t3CY" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:09:37.198Z" agent="5.0 (Windows)" etag="lmB7O-7Pl1t_b2S8jb-A" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -54,8 +54,8 @@
         </mxCell>
         <mxCell id="OAktlr_rAtMlSzYdnEFI-31" value="104：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.2;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="1" edge="1">
           <mxGeometry x="0.0156" relative="1" as="geometry">
-            <mxPoint x="1143" y="652" as="sourcePoint" />
-            <mxPoint x="1015" y="652" as="targetPoint" />
+            <mxPoint x="1143" y="662" as="sourcePoint" />
+            <mxPoint x="1015" y="662" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -81,24 +81,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAktlr_rAtMlSzYdnEFI-41" value="责任区加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1013" y="260.9999999999999" as="sourcePoint" />
-            <mxPoint x="1017.6199999999999" y="298.91999999999996" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1067.62" y="260.9" />
-              <mxPoint x="1067.62" y="298.9" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OAktlr_rAtMlSzYdnEFI-51" value="解除责任区的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1017" y="682" as="sourcePoint" />
-            <mxPoint x="1021.6199999999999" y="719.9200000000001" as="targetPoint" />
+            <mxPoint x="1017" y="688" as="sourcePoint" />
+            <mxPoint x="1021.6199999999999" y="725.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1071.62" y="681.9" />
-              <mxPoint x="1071.62" y="719.9" />
+              <mxPoint x="1071.62" y="687.9" />
+              <mxPoint x="1071.62" y="725.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -168,6 +157,17 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1157.25" y="399" as="sourcePoint" />
             <mxPoint x="1657.5" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAktlr_rAtMlSzYdnEFI-41" value="判断责任区是否存在锁，若无加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
+            <mxPoint x="1013" y="260.9999999999999" as="sourcePoint" />
+            <mxPoint x="1017.6199999999999" y="298.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1067.62" y="260.9" />
+              <mxPoint x="1067.62" y="298.9" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
