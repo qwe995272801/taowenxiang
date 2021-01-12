@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:50:01.502Z" agent="5.0 (Windows)" etag="EYVQFwgWBevVKB7QcXpz" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T12:14:40.791Z" agent="5.0 (Windows)" etag="l7MXkBm8gLYiLylMcYyd" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -262,11 +262,11 @@
         </mxCell>
         <mxCell id="5RTT0yzJ6uIvpem1gimg-35" value="选择遥控成功加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="TsInHWMdMIwJDS8TREMW-1" edge="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1016" y="666" as="sourcePoint" />
-            <mxPoint x="1020.6199999999999" y="703.9200000000001" as="targetPoint" />
+            <mxPoint x="1016" y="675" as="sourcePoint" />
+            <mxPoint x="1020.6199999999999" y="712.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1070.62" y="665.9" />
-              <mxPoint x="1070.62" y="703.9" />
+              <mxPoint x="1070.62" y="674.9" />
+              <mxPoint x="1070.62" y="712.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -282,8 +282,8 @@
         </mxCell>
         <mxCell id="vYIRrOggsCSMcfdZcEOA-3" value="?协议：请求遥控选择" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1155" y="403" as="sourcePoint" />
-            <mxPoint x="1385.5" y="403" as="targetPoint" />
+            <mxPoint x="1155" y="452" as="sourcePoint" />
+            <mxPoint x="1385.5" y="452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vYIRrOggsCSMcfdZcEOA-4" value="判断是否存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
@@ -321,8 +321,8 @@
         </mxCell>
         <mxCell id="vYIRrOggsCSMcfdZcEOA-8" value="?协议：返回遥控选择结果" style="html=1;verticalAlign=bottom;endArrow=none;fontFamily=Helvetica;fontSize=12;dashed=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1157" y="472" as="sourcePoint" />
-            <mxPoint x="1387.5" y="472" as="targetPoint" />
+            <mxPoint x="1157" y="497" as="sourcePoint" />
+            <mxPoint x="1387.5" y="497" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zI3rO747xoXCxmxQDP0M-0" value="FORE1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TsInHWMdMIwJDS8TREMW-1">
@@ -333,14 +333,20 @@
         </mxCell>
         <mxCell id="zI3rO747xoXCxmxQDP0M-2" value="mqtt：选择成功通知FORE1加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1157" y="544" as="sourcePoint" />
-            <mxPoint x="1624.5" y="544" as="targetPoint" />
+            <mxPoint x="1157" y="408" as="sourcePoint" />
+            <mxPoint x="1624.5" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5RTT0yzJ6uIvpem1gimg-2" value="mqtt：返回遥控选择结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.81;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="TsInHWMdMIwJDS8TREMW-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1005" y="742" as="sourcePoint" />
             <mxPoint x="805" y="742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkqGi8DmcarmtSHgErd--0" value="mqtt：选择成功通知FORE1加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1157" y="542" as="sourcePoint" />
+            <mxPoint x="1624.5" y="542" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
