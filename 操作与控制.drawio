@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T11:04:10.221Z" agent="5.0 (Windows)" etag="oLrHKO35Z3mRtqF_pE7c" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:07:09.973Z" agent="5.0 (Windows)" etag="7Oc1xMIEwpATUTH7Rw3x" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -12,8 +12,8 @@
         </mxCell>
         <mxCell id="OAktlr_rAtMlSzYdnEFI-24" value="mqtt：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.81;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="OAktlr_rAtMlSzYdnEFI-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="630.2" as="sourcePoint" />
-            <mxPoint x="55" y="630.2" as="targetPoint" />
+            <mxPoint x="255" y="690.2" as="sourcePoint" />
+            <mxPoint x="55" y="690.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OAktlr_rAtMlSzYdnEFI-3" value="前置（安全Ⅰ区）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -61,12 +61,12 @@
         </mxCell>
         <mxCell id="OAktlr_rAtMlSzYdnEFI-34" value="mqtt：请求遥控" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="0.003" relative="1" as="geometry">
-            <mxPoint x="807" y="277" as="sourcePoint" />
-            <mxPoint x="1006.5000000000005" y="277" as="targetPoint" />
+            <mxPoint x="805" y="245" as="sourcePoint" />
+            <mxPoint x="1004.5000000000005" y="245" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="917" y="277" />
-              <mxPoint x="757" y="327" />
-              <mxPoint x="747" y="327" />
+              <mxPoint x="915" y="245" />
+              <mxPoint x="755" y="295" />
+              <mxPoint x="745" y="295" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -81,24 +81,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAktlr_rAtMlSzYdnEFI-41" value="判断责任区是否存在其它遥控，若无加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="OAktlr_rAtMlSzYdnEFI-41" value="责任区加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="806" y="222.07999999999987" as="sourcePoint" />
-            <mxPoint x="810.6199999999999" y="259.99999999999994" as="targetPoint" />
+            <mxPoint x="1013" y="260.9999999999999" as="sourcePoint" />
+            <mxPoint x="1017.6199999999999" y="298.91999999999996" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="860.62" y="221.97999999999996" />
-              <mxPoint x="860.62" y="259.97999999999996" />
+              <mxPoint x="1067.62" y="260.9" />
+              <mxPoint x="1067.62" y="298.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OAktlr_rAtMlSzYdnEFI-51" value="解除责任区的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="805" y="719" as="sourcePoint" />
-            <mxPoint x="809.6199999999999" y="756.9200000000001" as="targetPoint" />
+            <mxPoint x="1017" y="682" as="sourcePoint" />
+            <mxPoint x="1021.6199999999999" y="719.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="859.62" y="718.9" />
-              <mxPoint x="859.62" y="756.9" />
+              <mxPoint x="1071.62" y="681.9" />
+              <mxPoint x="1071.62" y="719.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -115,7 +115,7 @@
             <mxPoint x="1387.5" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LbSqdh2Q24WJFpLlBxYO-4" value="判断所遥控的站是否允许执行遥控" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="LbSqdh2Q24WJFpLlBxYO-4" value="判断是否存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
             <mxPoint x="1158" y="336" as="sourcePoint" />
             <mxPoint x="1162.62" y="373.9200000000001" as="targetPoint" />
@@ -132,7 +132,7 @@
         <mxCell id="LbSqdh2Q24WJFpLlBxYO-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="LbSqdh2Q24WJFpLlBxYO-5">
           <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
         </mxCell>
-        <mxCell id="LbSqdh2Q24WJFpLlBxYO-7" value="解除所遥控站的锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="LbSqdh2Q24WJFpLlBxYO-7" value="解锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
             <mxPoint x="1157" y="602" as="sourcePoint" />
             <mxPoint x="1161.62" y="639.9200000000001" as="targetPoint" />
@@ -286,7 +286,7 @@
             <mxPoint x="1385.5" y="403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vYIRrOggsCSMcfdZcEOA-4" value="判断所遥控的站是否允许遥控选择" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
+        <mxCell id="vYIRrOggsCSMcfdZcEOA-4" value="判断是否存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
             <mxPoint x="1158" y="334" as="sourcePoint" />
             <mxPoint x="1162.62" y="371.9200000000001" as="targetPoint" />
