@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T01:49:00.734Z" agent="5.0 (Windows)" etag="_8JTbnqqE0ISsgnjHW65" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-13T01:51:56.063Z" agent="5.0 (Windows)" etag="yhl3FZyXF-y246xRTlGa" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -138,13 +138,13 @@
             <mxPoint x="1387.5" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LbSqdh2Q24WJFpLlBxYO-10" value="mqtt：通知FORE1解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
+        <mxCell id="LbSqdh2Q24WJFpLlBxYO-10" value="mqtt：通知解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1157.25" y="566" as="sourcePoint" />
             <mxPoint x="1657.5" y="566" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ISzSaYAcbgQSI4KuZ1ga-1" value="&lt;div&gt;FORE1&lt;/div&gt;&lt;div&gt;FORE2&lt;/div&gt;&lt;div&gt;服务网关机&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ISzSaYAcbgQSI4KuZ1ga-1" value="&lt;div&gt;FORE1&lt;/div&gt;&lt;div&gt;FORE2&lt;/div&gt;&lt;div&gt;实时网关机&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务网关机&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;size=64;" vertex="1" parent="1">
           <mxGeometry x="1614" y="60" width="100" height="816" as="geometry" />
         </mxCell>
         <mxCell id="ISzSaYAcbgQSI4KuZ1ga-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="ISzSaYAcbgQSI4KuZ1ga-1">
@@ -153,7 +153,7 @@
         <mxCell id="tYU4CJyS0lu0Jfi3BvtX-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;变电站&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1101" y="18" width="612" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="tYU4CJyS0lu0Jfi3BvtX-3" value="mqtt：通知FORE1加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
+        <mxCell id="tYU4CJyS0lu0Jfi3BvtX-3" value="mqtt：通知加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1157.25" y="399" as="sourcePoint" />
             <mxPoint x="1657.5" y="399" as="targetPoint" />
@@ -325,13 +325,7 @@
             <mxPoint x="1387.5" y="497" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zI3rO747xoXCxmxQDP0M-0" value="FORE1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="TsInHWMdMIwJDS8TREMW-1">
-          <mxGeometry x="1572" y="58" width="100" height="816" as="geometry" />
-        </mxCell>
-        <mxCell id="zI3rO747xoXCxmxQDP0M-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="zI3rO747xoXCxmxQDP0M-0">
-          <mxGeometry x="53" y="80" width="10" height="736" as="geometry" />
-        </mxCell>
-        <mxCell id="zI3rO747xoXCxmxQDP0M-2" value="mqtt：通知FORE1加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
+        <mxCell id="zI3rO747xoXCxmxQDP0M-2" value="mqtt：通知加锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1157" y="408" as="sourcePoint" />
             <mxPoint x="1624.5" y="408" as="targetPoint" />
@@ -343,7 +337,7 @@
             <mxPoint x="805" y="742" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rkqGi8DmcarmtSHgErd--0" value="mqtt：选择失败通知FORE1解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
+        <mxCell id="rkqGi8DmcarmtSHgErd--0" value="mqtt：选择失败通知解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1157" y="542" as="sourcePoint" />
             <mxPoint x="1624.5" y="542" as="targetPoint" />
@@ -359,6 +353,12 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_9hWw3jfdlop5o6jIU_Z-0" value="&lt;div&gt;FORE1&lt;/div&gt;&lt;div&gt;FORE2&lt;/div&gt;&lt;div&gt;实时网关机&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务网关机&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;size=64;" vertex="1" parent="TsInHWMdMIwJDS8TREMW-1">
+          <mxGeometry x="1581" y="58" width="100" height="816" as="geometry" />
+        </mxCell>
+        <mxCell id="_9hWw3jfdlop5o6jIU_Z-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="_9hWw3jfdlop5o6jIU_Z-0">
+          <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
