@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T01:52:39.212Z" agent="5.0 (Windows)" etag="ALhv67V06OJJVM6p5nxC" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-13T01:53:12.180Z" agent="5.0 (Windows)" etag="qRH3JXVom5fECCcMSqwt" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -364,7 +364,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l696x38a-Nqm5peT2Peu" name="集控站遥控执行">
-    <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="x2HWCKkkfEyqD4hLZzFE-0" />
         <mxCell id="x2HWCKkkfEyqD4hLZzFE-1" parent="x2HWCKkkfEyqD4hLZzFE-0" />
@@ -678,13 +678,7 @@
             <mxPoint x="1393.5" y="492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W55j3i_SupmhrxSVGZ0L-21" value="FORE1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
-          <mxGeometry x="1593" y="62" width="100" height="816" as="geometry" />
-        </mxCell>
-        <mxCell id="W55j3i_SupmhrxSVGZ0L-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="W55j3i_SupmhrxSVGZ0L-21">
-          <mxGeometry x="41" y="72" width="10" height="736" as="geometry" />
-        </mxCell>
-        <mxCell id="QzWQzwNTLWjnBCJhb246-0" value="mqtt：撤销成功通知FORE1解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
+        <mxCell id="QzWQzwNTLWjnBCJhb246-0" value="mqtt：撤销成功通知解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1162" y="548" as="sourcePoint" />
             <mxPoint x="1635" y="548" as="targetPoint" />
@@ -700,6 +694,12 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EeF16wg-Rs7dUZArp702-0" value="&lt;div&gt;FORE1&lt;/div&gt;&lt;div&gt;FORE2&lt;/div&gt;&lt;div&gt;实时网关机&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务网关机&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;size=64;" vertex="1" parent="ZuWGsQ8DyUzYGvk5d2aV-1">
+          <mxGeometry x="1591" y="62" width="100" height="816" as="geometry" />
+        </mxCell>
+        <mxCell id="EeF16wg-Rs7dUZArp702-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="EeF16wg-Rs7dUZArp702-0">
+          <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
