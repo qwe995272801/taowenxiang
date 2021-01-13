@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T02:21:26.550Z" agent="5.0 (Windows)" etag="Z7F6aywkYk0-8XKzdGhg" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-13T02:21:45.122Z" agent="5.0 (Windows)" etag="gy2bRmVVXsTOSHokTM7-" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -920,8 +920,8 @@
         </mxCell>
         <mxCell id="_z2_ftPnhv2NHy_8zXT9-15" value="rest：请求遥控选择" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="LJaF5jrusKMPGXKQACkT-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1377" y="393" as="sourcePoint" />
-            <mxPoint x="1570" y="393" as="targetPoint" />
+            <mxPoint x="1377" y="370" as="sourcePoint" />
+            <mxPoint x="1570" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_z2_ftPnhv2NHy_8zXT9-16" value="rest：返回遥控选择结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="LJaF5jrusKMPGXKQACkT-1" edge="1">
@@ -954,11 +954,11 @@
         </mxCell>
         <mxCell id="2sKyy-7bsNrvAxIIDq8--0" value="防误判断是够具备调控条件" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="LJaF5jrusKMPGXKQACkT-1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1583" y="395.9999999999998" as="sourcePoint" />
-            <mxPoint x="1587.62" y="433.9200000000001" as="targetPoint" />
+            <mxPoint x="1583" y="383.9999999999998" as="sourcePoint" />
+            <mxPoint x="1587.62" y="421.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1637.62" y="395.9" />
-              <mxPoint x="1637.62" y="433.9" />
+              <mxPoint x="1637.62" y="383.9" />
+              <mxPoint x="1637.62" y="421.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
