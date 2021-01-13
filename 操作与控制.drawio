@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T01:54:41.427Z" agent="5.0 (Windows)" etag="ATJBeNd1i1lTqRrfS9Sp" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-13T01:55:14.715Z" agent="5.0 (Windows)" etag="OC5VPrEMdSCQt5wgL2_c" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -1074,13 +1074,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5AWr4jV78_l067GKtffn-0" value="实时网关机" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="p2sBgxNXNXwG08GKt1k--1">
-          <mxGeometry x="2140" y="170" width="100" height="802" as="geometry" />
-        </mxCell>
-        <mxCell id="5AWr4jV78_l067GKtffn-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="5AWr4jV78_l067GKtffn-0">
-          <mxGeometry x="45" y="80" width="10" height="722" as="geometry" />
-        </mxCell>
-        <mxCell id="5AWr4jV78_l067GKtffn-2" value="mqtt：通知实时网关机解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="p2sBgxNXNXwG08GKt1k--1">
+        <mxCell id="5AWr4jV78_l067GKtffn-2" value="mqtt：通知解锁" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" edge="1" parent="p2sBgxNXNXwG08GKt1k--1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1778" y="610" as="sourcePoint" />
             <mxPoint x="2189.5" y="610" as="targetPoint" />
@@ -1096,6 +1090,12 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S8B9HGTUOgZzB5FWkvMy-0" value="&lt;div&gt;FORE1&lt;/div&gt;&lt;div&gt;FORE2&lt;/div&gt;&lt;div&gt;实时网关机&lt;br&gt;&lt;/div&gt;&lt;div&gt;服务网关机&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;size=64;" vertex="1" parent="p2sBgxNXNXwG08GKt1k--1">
+          <mxGeometry x="2147" y="170" width="100" height="816" as="geometry" />
+        </mxCell>
+        <mxCell id="S8B9HGTUOgZzB5FWkvMy-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="S8B9HGTUOgZzB5FWkvMy-0">
+          <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
