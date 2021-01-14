@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T02:27:31.020Z" agent="5.0 (Windows)" etag="NrHv1y7KUyZU-qeLYVHF" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-14T02:29:24.052Z" agent="5.0 (Windows)" etag="_UeX8IbwnLX026zQwhQB" version="14.1.9" type="github" pages="4">
   <diagram name="历史数据调阅" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -436,7 +436,7 @@
             <mxPoint x="555" y="825.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VZKnTXv_0KGTMOll4MMl-24" value="rest：返回请求文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="tbjyTwk7MNVPmW3UWlRG-1" edge="1">
+        <mxCell id="VZKnTXv_0KGTMOll4MMl-24" value="websocket：返回请求文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="tbjyTwk7MNVPmW3UWlRG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="545" y="885" as="sourcePoint" />
             <mxPoint x="416" y="885" as="targetPoint" />
@@ -495,11 +495,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wuQm5OR9NiwmtK0sT6g6-0" value="rest：返回请求文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="tbjyTwk7MNVPmW3UWlRG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="402" as="sourcePoint" />
+            <mxPoint x="416" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="hkyKMWoyRU-4yU2LEUIP" name="日志文件调阅">
-    <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="F0qiWzcAmEfmqYKXFax1-0" />
         <mxCell id="F0qiWzcAmEfmqYKXFax1-1" parent="F0qiWzcAmEfmqYKXFax1-0" />
