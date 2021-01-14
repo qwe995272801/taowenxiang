@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T11:07:14.605Z" agent="5.0 (Windows)" etag="AtahE4GBSl_GK7hPgbVE" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-14T11:19:29.246Z" agent="5.0 (Windows)" etag="E4CzkCwLMzO30lprOWWS" version="14.1.9" type="github" pages="4">
   <diagram name="历史数据调阅" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -510,7 +510,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="hkyKMWoyRU-4yU2LEUIP" name="日志文件调阅">
+  <diagram id="hkyKMWoyRU-4yU2LEUIP" name="故障分析报告调阅">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="F0qiWzcAmEfmqYKXFax1-0" />
@@ -676,7 +676,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qWorejOp-CcDmJJ3CNTJ-32" value="日志查询服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="F0qiWzcAmEfmqYKXFax1-1">
+        <mxCell id="qWorejOp-CcDmJJ3CNTJ-32" value="故障分析报告查询" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="F0qiWzcAmEfmqYKXFax1-1">
           <mxGeometry x="1359" y="225" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="qWorejOp-CcDmJJ3CNTJ-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="qWorejOp-CcDmJJ3CNTJ-32">
