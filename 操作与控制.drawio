@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T02:45:53.347Z" agent="5.0 (Windows)" etag="_Iq0JDsLTdR5t6KsTSuU" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-14T02:47:31.429Z" agent="5.0 (Windows)" etag="oXZHnguIqeeDj0_IYT4q" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -825,7 +825,7 @@
             <mxPoint x="1430" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AnVUDT3IRgTYin_r3TKA-3" value="rest：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="wMq_7famFR51GRSwdipC-1" edge="1">
+        <mxCell id="AnVUDT3IRgTYin_r3TKA-3" value="websocket：返回遥控结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="wMq_7famFR51GRSwdipC-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1434" y="815" as="sourcePoint" />
             <mxPoint x="1235" y="815" as="targetPoint" />
@@ -965,7 +965,7 @@
             <mxPoint x="1570" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_z2_ftPnhv2NHy_8zXT9-16" value="rest：返回遥控选择结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="LJaF5jrusKMPGXKQACkT-1" edge="1">
+        <mxCell id="_z2_ftPnhv2NHy_8zXT9-16" value="websocket：返回遥控选择结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="LJaF5jrusKMPGXKQACkT-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1574" y="758" as="sourcePoint" />
             <mxPoint x="1375" y="758" as="targetPoint" />
@@ -1009,6 +1009,12 @@
         </mxCell>
         <mxCell id="LbZBRUILCunhezl3LnVG-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="LbZBRUILCunhezl3LnVG-0">
           <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
+        </mxCell>
+        <mxCell id="E_Dgqtw-lu0PS49ZpwDO-0" value="rest：返回请求结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="LJaF5jrusKMPGXKQACkT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1574" y="428" as="sourcePoint" />
+            <mxPoint x="1375" y="428" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
