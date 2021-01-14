@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T10:47:09.728Z" agent="5.0 (Windows)" etag="Ff_-ZAPcFPOtM8PUmFhb" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-14T11:02:20.070Z" agent="5.0 (Windows)" etag="8YYT9WYqBDl6joRnAVwE" version="14.1.9" type="github" pages="4">
   <diagram name="历史数据调阅" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -187,8 +187,8 @@
         </mxCell>
         <mxCell id="OZsl4u9eeaH9CvWHgr1x-21" value="rest：存储历史数据" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1315" y="384" as="sourcePoint" />
-            <mxPoint x="1470" y="384.0000000000001" as="targetPoint" />
+            <mxPoint x="1315" y="377" as="sourcePoint" />
+            <mxPoint x="1470" y="377.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D8VeaysGg7-_qiTjH1Ni-1" value="rest：返回历史数据" style="html=1;verticalAlign=bottom;endArrow=none;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=block;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
@@ -197,11 +197,17 @@
             <mxPoint x="723" y="234.00000000000114" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QXhjfcH5y4avwBqPh13p-1" value="rest：返回历史数据Url" style="html=1;verticalAlign=bottom;endArrow=none;fontFamily=Helvetica;fontSize=12;startArrow=block;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1315" y="402" as="sourcePoint" />
+            <mxPoint x="1470" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="lMLiHJ14xjBYSUhT6wy1" name="实时数据调阅">
-    <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qg0TJCGyIy5hIfoVMsbQ-0" />
         <mxCell id="qg0TJCGyIy5hIfoVMsbQ-1" parent="qg0TJCGyIy5hIfoVMsbQ-0" />
