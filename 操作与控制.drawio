@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T13:55:25.254Z" agent="5.0 (Windows)" etag="M0c__2Qz1bXlkgpUeeSp" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-14T14:03:42.398Z" agent="5.0 (Windows)" etag="rxk0Sr1Uszy_Xi3uTRbJ" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -266,7 +266,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5RTT0yzJ6uIvpem1gimg-21" value="判断责任区是否存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="TsInHWMdMIwJDS8TREMW-1" edge="1">
+        <mxCell id="5RTT0yzJ6uIvpem1gimg-21" value="判断责任区是否存在锁，若无加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="TsInHWMdMIwJDS8TREMW-1" edge="1">
           <mxGeometry x="-0.5507" y="-16" relative="1" as="geometry">
             <mxPoint x="1017" y="275.0799999999999" as="sourcePoint" />
             <mxPoint x="1021.6199999999999" y="313" as="targetPoint" />
@@ -303,7 +303,7 @@
             <mxPoint x="1385.5" y="452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vYIRrOggsCSMcfdZcEOA-4" value="判断是否存在锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
+        <mxCell id="vYIRrOggsCSMcfdZcEOA-4" value="判断是否存在锁，若无加锁" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="TsInHWMdMIwJDS8TREMW-1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
             <mxPoint x="1158" y="358" as="sourcePoint" />
             <mxPoint x="1162.62" y="395.9200000000001" as="targetPoint" />
@@ -331,7 +331,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vPihLVBm21FbPvzSFdbm-0" value="选择遥控成功加锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="vYIRrOggsCSMcfdZcEOA-7">
+        <mxCell id="vPihLVBm21FbPvzSFdbm-0" value="选择遥控失败解锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="vYIRrOggsCSMcfdZcEOA-7">
           <mxGeometry x="-0.7614" y="-1" relative="1" as="geometry">
             <mxPoint x="21" y="8" as="offset" />
           </mxGeometry>
