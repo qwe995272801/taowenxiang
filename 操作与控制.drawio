@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T02:49:31.836Z" agent="5.0 (Windows)" etag="LZ7gQWvvutf4vXAqWvWQ" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-14T02:51:09.426Z" agent="5.0 (Windows)" etag="X5_Jz2r6LvLe-UafH6e6" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -1224,11 +1224,11 @@
         </mxCell>
         <mxCell id="WtwCudk_62ub5tHGt2Jf-15" value="rest：请求遥控撤销" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1377" y="393" as="sourcePoint" />
-            <mxPoint x="1570" y="393" as="targetPoint" />
+            <mxPoint x="1377" y="370" as="sourcePoint" />
+            <mxPoint x="1570" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WtwCudk_62ub5tHGt2Jf-16" value="rest：返回遥控撤销结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
+        <mxCell id="WtwCudk_62ub5tHGt2Jf-16" value="websocket：返回遥控撤销结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="q6bTPKJTKwoUEdH05ThR-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1574" y="758" as="sourcePoint" />
             <mxPoint x="1375" y="758" as="targetPoint" />
@@ -1252,11 +1252,11 @@
         </mxCell>
         <mxCell id="oT94_7dO7M9yIdTMgT3U-0" value="防误判断是够具备调控条件" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="q6bTPKJTKwoUEdH05ThR-1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1581" y="391.9999999999998" as="sourcePoint" />
-            <mxPoint x="1585.62" y="429.9200000000001" as="targetPoint" />
+            <mxPoint x="1581" y="370.9999999999998" as="sourcePoint" />
+            <mxPoint x="1585.62" y="408.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1635.62" y="391.9" />
-              <mxPoint x="1635.62" y="429.9" />
+              <mxPoint x="1635.62" y="370.9" />
+              <mxPoint x="1635.62" y="408.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1266,6 +1266,12 @@
         </mxCell>
         <mxCell id="bgQvQMCBh42PKqFR5-nB-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="bgQvQMCBh42PKqFR5-nB-0">
           <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
+        </mxCell>
+        <mxCell id="ngOLC8r_H7hXntp03ydQ-0" value="rest：返回请求结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="q6bTPKJTKwoUEdH05ThR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1574" y="428" as="sourcePoint" />
+            <mxPoint x="1375" y="428" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
