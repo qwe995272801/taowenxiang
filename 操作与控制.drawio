@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T02:44:43.666Z" agent="5.0 (Windows)" etag="bOCmi6hQD-FcqLGa3ohm" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-14T02:45:53.347Z" agent="5.0 (Windows)" etag="_Iq0JDsLTdR5t6KsTSuU" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -740,7 +740,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9o3CwmvH5UfDT6bgjeNN" name="变电站直控">
-    <mxGraphModel dx="2921" dy="1594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="735" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="wMq_7famFR51GRSwdipC-0" />
         <mxCell id="wMq_7famFR51GRSwdipC-1" parent="wMq_7famFR51GRSwdipC-0" />
@@ -855,11 +855,11 @@
         </mxCell>
         <mxCell id="zKe6uhhR3ef7Yu3NDe9p-0" value="防误判断是够具备调控条件" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
           <mxGeometry x="0.0177" y="25" relative="1" as="geometry">
-            <mxPoint x="1442" y="374.9999999999998" as="sourcePoint" />
-            <mxPoint x="1446.62" y="412.9200000000001" as="targetPoint" />
+            <mxPoint x="1441" y="381.9999999999998" as="sourcePoint" />
+            <mxPoint x="1445.62" y="419.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1496.62" y="374.9" />
-              <mxPoint x="1496.62" y="412.9" />
+              <mxPoint x="1495.62" y="381.9" />
+              <mxPoint x="1495.62" y="419.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -869,6 +869,12 @@
         </mxCell>
         <mxCell id="x3Ujpueifd_IwNME9cZ4-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="x3Ujpueifd_IwNME9cZ4-0">
           <mxGeometry x="45" y="80" width="10" height="736" as="geometry" />
+        </mxCell>
+        <mxCell id="55HhsGZlEpNBFoinXk3J-0" value="rest：返回请求结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="wMq_7famFR51GRSwdipC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1434" y="440" as="sourcePoint" />
+            <mxPoint x="1235" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
