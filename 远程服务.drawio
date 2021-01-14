@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T02:29:24.052Z" agent="5.0 (Windows)" etag="_UeX8IbwnLX026zQwhQB" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-14T02:30:29.846Z" agent="5.0 (Windows)" etag="G8BLWGAwIq4BmndNw4eZ" version="14.1.9" type="github" pages="4">
   <diagram name="历史数据调阅" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1634" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -611,7 +611,7 @@
             <mxPoint x="505" y="831.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qWorejOp-CcDmJJ3CNTJ-24" value="rest：返回请求日志文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="F0qiWzcAmEfmqYKXFax1-1">
+        <mxCell id="qWorejOp-CcDmJJ3CNTJ-24" value="websocket：返回请求日志文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="F0qiWzcAmEfmqYKXFax1-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="495" y="882" as="sourcePoint" />
             <mxPoint x="366" y="882" as="targetPoint" />
@@ -687,6 +687,12 @@
             <mxPoint x="1241" y="529.52" as="sourcePoint" />
             <mxPoint x="1086" y="528.47" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIaUWErsrduk2AI1MmMs-0" value="rest：返回请求日志文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.1;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="F0qiWzcAmEfmqYKXFax1-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="404" as="sourcePoint" />
+            <mxPoint x="366" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
