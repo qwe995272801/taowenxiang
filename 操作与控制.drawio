@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T02:53:33.643Z" agent="5.0 (Windows)" etag="xeHSVLjG4UHs_pK06Yha" version="14.1.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-14T13:55:25.254Z" agent="5.0 (Windows)" etag="M0c__2Qz1bXlkgpUeeSp" version="14.1.9" type="github" pages="8">
   <diagram id="xpMszpWP5vrc_gCUpFQ1" name="集控站直控">
     <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -740,7 +740,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9o3CwmvH5UfDT6bgjeNN" name="变电站直控">
-    <mxGraphModel dx="735" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1047" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="wMq_7famFR51GRSwdipC-0" />
         <mxCell id="wMq_7famFR51GRSwdipC-1" parent="wMq_7famFR51GRSwdipC-0" />
