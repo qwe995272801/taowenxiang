@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T06:49:29.603Z" agent="5.0 (Windows)" etag="PsQufgNxWPYzq-OxgxF2" version="14.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-16T07:03:19.625Z" agent="5.0 (Windows)" etag="fXu1qI0ft9Pf2DqFbx_C" version="14.2.3" type="github" pages="4">
   <diagram name="历史数据调阅" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -307,7 +307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9J9Df5OVKFYTZpi1uOK0" name="文件调阅">
-    <mxGraphModel dx="1874" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tbjyTwk7MNVPmW3UWlRG-0" />
         <mxCell id="tbjyTwk7MNVPmW3UWlRG-1" parent="tbjyTwk7MNVPmW3UWlRG-0" />
@@ -477,9 +477,6 @@
             <mxPoint x="545" y="402" as="sourcePoint" />
             <mxPoint x="416" y="402" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Eh7MGLennBsEHwrB0-dG-0" value="61850服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="tbjyTwk7MNVPmW3UWlRG-1">
-          <mxGeometry x="1004" y="225" width="100" height="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
