@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T07:14:11.951Z" agent="5.0 (Windows)" etag="ZflKym9SKjWy4yvnKzje" version="14.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-16T08:00:11.460Z" agent="5.0 (Windows)" etag="jQFaA1bGPXCNnYy5iqXn" version="14.2.3" type="github" pages="4">
   <diagram name="历史数据调阅" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lMLiHJ14xjBYSUhT6wy1" name="实时数据调阅">
-    <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qg0TJCGyIy5hIfoVMsbQ-0" />
         <mxCell id="qg0TJCGyIy5hIfoVMsbQ-1" parent="qg0TJCGyIy5hIfoVMsbQ-0" />
@@ -307,7 +307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9J9Df5OVKFYTZpi1uOK0" name="文件调阅">
-    <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tbjyTwk7MNVPmW3UWlRG-0" />
         <mxCell id="tbjyTwk7MNVPmW3UWlRG-1" parent="tbjyTwk7MNVPmW3UWlRG-0" />
@@ -485,7 +485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hkyKMWoyRU-4yU2LEUIP" name="故障分析报告调阅">
-    <mxGraphModel dx="1562" dy="664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="F0qiWzcAmEfmqYKXFax1-0" />
         <mxCell id="F0qiWzcAmEfmqYKXFax1-1" parent="F0qiWzcAmEfmqYKXFax1-0" />
